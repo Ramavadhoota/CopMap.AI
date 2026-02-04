@@ -61,15 +61,15 @@ Mitigations implemented:
 ### High-Level Flow
 
 CCTV / Video Input
-↓
+->
 Computer Vision Models (YOLO, Violence Detection)
-↓
+->
 Event & Risk Analysis Layer
-↓
+->
 SQL Database + Vector Store (FAISS)
-↓
+->
 LLM (RAG-based Intelligence Summaries)
-↓
+->
 CopMap Backend / Officer Dashboard
 
 
@@ -141,9 +141,9 @@ It is used for:
 ### RAG Flow
 
 Detection Events → Embeddings → FAISS
-↓
+->
 Relevant Context
-↓
+->
 FLAN-T5 Summary
 
 
